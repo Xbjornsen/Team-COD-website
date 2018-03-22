@@ -1,0 +1,92 @@
+body{
+  background: url(images.jpg);
+  background-size: cover;
+
+}
+.register{
+  border-radius: 5px;
+  padding:20px;
+  width:900px;
+  height: 700px;
+  margin:auto;
+  background: gray;
+  color: #fff;
+  font-size:16px;
+  font-family: sans-serif;
+  opacity:0.8;
+
+}
+.register h1{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.register h5{
+  text-align: center;
+  margin-top: 650px;
+}
+.register input, select{
+  padding: 12px 20px;
+  margin: 8px 5px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 20px;
+  background: black;
+  color: white;
+  opacity:0.9;
+}
+.register input[type=submit]{
+  width:875px;
+  border:none;
+  cursor:pointer;
+  position: absolute;
+  top: 625px;
+}
+.register input[type=text]{
+  width:425px;
+  border:none;
+}
+.register label{
+  font-size:20px;
+
+}
+#address{
+  width:875px;
+}
+#e-mail{
+  width:875px;
+}
+
+
+.fname {
+  position: absolute;
+  width:425px;
+
+}
+.lname{
+  position: absolute;
+  left: 675px;
+  width:425px;
+}
+.add{
+  position: absolute;
+  top:200px;
+}
+.email{
+  position: absolute;
+  top:300px;
+}
+.phn{
+  position: absolute;
+  top:400px;
+}
+.dob{
+  position: absolute;
+  top:500px;
+}
+input[type=submit]:hover{
+  background:green;
+  transition: 0.6s
+}
