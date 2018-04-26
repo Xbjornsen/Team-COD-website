@@ -1,6 +1,4 @@
 
-
-
 function f1() {
     document.getElementById("myd2").classList.toggle("show");
 }
