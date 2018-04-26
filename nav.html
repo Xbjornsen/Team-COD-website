@@ -1,5 +1,68 @@
-<nav>
-  <ul class="">
-    <li class=""><a href="#">Home<a>
-  <ul class="menu">
-    <li><a href="#">Patrons>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Darwin Community Legal Services</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href='./nav.css'>
+</head>
+<header>
+  <div class="header">
+  <h1><b> Darwin Community Legal Services</b></h1>
+  <a href="#">Admin Login</a>
+</div>
+</header>
+<body>
+  <div class="navbar">
+    <a href="#news">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn" onclick="f1()">About Us
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content" id="myd2">
+        <a href="#">Patrons</a>
+        <a href="#">Reports</a>
+        <a href="#">Objectives</a>
+        <a href="#">Site Info</a>
+      </div>
+    </div>
+  <div class="dropdown">
+    <button class="dropbtn" onclick="f2()">Legal Services
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="myd1">
+      <a href="#">NDIS</a>
+      <a href="#">Community Legal Education</a>
+      <a href="#">Seniors & Disability</a>
+      <a href="#">Free legal Advice</a>
+      <a href="#">Tenant's Advice</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn" onclick="f3()">Join Us
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="myd3">
+      <a href="#">Volunteering</a>
+      <a href="#">Employment</a>
+      <a href="#">Membership</a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <button class="dropbtn" onclick="f4()">Contact Us
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="myd4">
+      <a href="#">Feedback</a>
+    </div>
+  </div>
+</div>
+
+
+<script src="./nav.js"></script>
+</body>
+<footer>
+</footer>
+</html>
