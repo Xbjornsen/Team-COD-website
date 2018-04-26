@@ -11,7 +11,11 @@
   font-size: 30px;
   color: darkblue;
   text-align: center;
-  padding: -5%;
+}
+.header h2{
+font_size: 25px;
+color:darkblue;
+text-align:center;
 }
 .header a {
     float: right;
