@@ -1,0 +1,164 @@
+body {
+  padding-top: 3rem;
+}
+body button{
+  border: 0px;
+}
+.top{
+  background-color: #A9CCE3;
+  padding: 100px 30px;
+}
+
+
+.home:hover{
+  width: 52px;
+  height: 48px;
+  position: static;
+}
+
+.login:hover{
+  width: 92px;
+  height: 30px;
+  position: static;
+}
+
+
+.hero{
+  padding: 20vh 0;
+  background: linear-gradient(to right, #EECDA3, #EF629F);
+}
+
+.about_us {
+  padding: 10vh 0;
+  background: #222;
+  color: white;
+}
+
+
+@media (min-width: 300px) {
+  .about_us {
+    padding: 20vh 0;
+  }
+}
+
+.legal_services {
+  padding: 10vh 0;
+  text-align: center;
+}
+@media (min-width: 300px) {
+  .legal_services {
+    padding: 20vh 0;
+  }
+}
+
+.contact_us {
+  padding: 10vh 0;
+  text-align: center;
+}
+@media (min-width: 300px) {
+  .contact_us {
+    padding: 20vh 0;
+  }
+}
+
+
+.register{
+    border-radius: 5px;
+    padding:20px;
+    margin:auto;
+    background: gray;
+    color: #fff;
+    font-size:16px;
+    font-family: sans-serif;
+
+
+}
+.register h1{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.register input, select{
+    padding: 12px 20px;
+    margin: 8px 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: black;
+    color: white;
+    opacity:0.9;
+    border:none;
+
+}
+.register input[type=submit]{
+    cursor:pointer;
+}
+.register label{
+    font-size:20px;
+}
+
+input[type=submit]:hover{
+    background:green;
+    transition: 0.6s
+}
+
+.register .comments textarea{
+    margin-left: 4px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .register{
+        padding: 5%;
+        width: 90%;
+        height: 900px;
+    }
+    .register h1{
+        width:95%;
+        font-size:25px;
+    }
+    .register input[type=text], [type=email], [type=number]{
+        width: 95%;
+        font-size: 16px;
+    }
+    .register .comments textarea{
+        width: 95%;
+        font-size: 16px;
+    }
+    .register input[type=submit]{
+        font-size:16px;
+    }
+}
+
+@media only screen and (min-width:600px){
+
+    .register{
+        width:70%;
+        height:900px;
+    }
+    .register input[type=text],[type=email],[type=number]{
+        width:85%;
+        font-size: 20px;
+    }
+    .register .comments textarea{
+        font-size: 20px;
+        width:85%;
+    }
+    .register input[type=submit]{
+        font-size:20px;
+    }
+}
+
+
+footer {
+  padding: 10vh 0;
+  text-align: center;
+  background: black;
+  color: white;
+}
