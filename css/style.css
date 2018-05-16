@@ -23,6 +23,7 @@ body button{
 }
 
 
+
 .hero{
   padding: 20vh 0;
   background: linear-gradient(to right, #EECDA3, #EF629F);
@@ -37,7 +38,7 @@ body button{
 
 @media (min-width: 300px) {
   .about_us {
-    padding: 20vh 0;
+    padding: 10vh 0;
   }
 }
 
@@ -59,6 +60,18 @@ body button{
   .contact_us {
     padding: 20vh 0;
   }
+}
+.card_row {
+  max-width:1000px;
+  min-height: 400px;
+  position: relative;
+  padding:8px;
+  grid-gap: 8px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  grid-gap: 10px;
+
 }
 
 
@@ -133,6 +146,18 @@ input[type=submit]:hover{
     }
     .register input[type=submit]{
         font-size:16px;
+    }
+    .card_row {
+      max-width:500px;
+      min-height: 400px;
+      position: relative;
+      padding:8px;
+      grid-gap: 8px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, 450px);
+      grid-gap: 10px;
+
     }
 }
 
