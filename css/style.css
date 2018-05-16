@@ -148,14 +148,14 @@ input[type=submit]:hover{
         font-size:16px;
     }
     .card_row {
-      max-width:500px;
+      max-width:599px;
       min-height: 400px;
       position: relative;
       padding:8px;
       grid-gap: 8px;
       margin: 0 auto;
       display: grid;
-      grid-template-columns: repeat(auto-fill, 450px);
+      grid-template-columns: repeat(auto-fill, 550px);
       grid-gap: 10px;
 
     }
