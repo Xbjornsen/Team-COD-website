@@ -155,7 +155,7 @@ input[type=submit]:hover{
       grid-gap: 8px;
       margin: 0 auto;
       display: grid;
-      grid-template-columns: repeat(auto-fill, 550px);
+      grid-template-columns: repeat(auto-fill, 590px);
       grid-gap: 10px;
 
     }
