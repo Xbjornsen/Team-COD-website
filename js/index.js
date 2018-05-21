@@ -31,29 +31,35 @@ $(document).ready(function() {
 
 
 function openNav() {
-      document.getElementById("sidebar").style.width = "250px";
-      document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+      document.getElementById("sidebar").style.width = "70%";
+
   }
 
 function closeNav() {
       document.getElementById("sidebar").style.width = "0";
-      document.body.style.backgroundColor = "white";
+
   }
 
 
 
+
+  var nav = document.getElementById('sidebar');
   var log = document.getElementById('log');
   var btn = document.getElementById("signin");
   var btna = document.getElementById("signi");
   var span1 = document.getElementsByClassName("close1")[0];
   btn.onclick = function() {
       log.style.display = "block";
+      sign.style.display = "none";
   }
   btna.onclick = function() {
       log.style.display = "block";
+      sign.style.display = "none";
   }
   span1.onclick = function() {
       log.style.display = "none";
+
+
   }
 
 
@@ -64,9 +70,11 @@ function closeNav() {
   var span2 = document.getElementsByClassName("close2")[0];
   btn1.onclick = function() {
       sign.style.display = "block";
+      log.style.display = "none";
   }
   btn1a.onclick = function() {
       sign.style.display = "block";
+      log.style.display = "none";
   }
   span2.onclick = function() {
       sign.style.display = "none";
@@ -80,4 +88,5 @@ function closeNav() {
       if (event.target == log) {
         log.style.display = "none";
       }
+
   }
