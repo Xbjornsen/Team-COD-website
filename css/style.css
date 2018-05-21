@@ -59,13 +59,6 @@ padding-top: 60px;
   position: static;
 }
 
-
-
-.hero{
-  padding: 20vh 0;
-  background: linear-gradient(to right, #EECDA3, #EF629F);
-}
-
 .about_us {
   padding: 10vh 0;
   background: #222;
