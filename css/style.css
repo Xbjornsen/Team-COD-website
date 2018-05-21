@@ -104,14 +104,14 @@ padding-top: 60px;
   }
 }
 .card_row {
-  max-width:1000px;
+  max-width:90%;
   min-height: 400px;
   position: relative;
   padding:8px;
   grid-gap: 8px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 300px);
+  grid-template-columns: repeat(auto-fill, 30%);
   grid-gap: 10px;
 
 }
