@@ -171,8 +171,8 @@ input[type=submit]:hover{
 
     .register{
         padding: 5%;
-        width: 70%;
-        height: 900px;
+        width: 95%;
+        height: auto;
     }
     .register h1{
         width:95%;
