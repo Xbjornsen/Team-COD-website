@@ -6,10 +6,13 @@ body button{
 }
 .top{
   background-color: #A9CCE3;
-  padding: 100px 30px;
 }
 .open{
   display:none;
+}
+.dcls{
+  width:100%;
+  height:auto;
 }
 .sidebar {
 height: 100%;
@@ -44,7 +47,12 @@ padding-top: 60px;
   font-size: 36px;
   margin-left: 50px;
 }
+@media screen and (max-width: 980px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 30px;}
 
+
+}
 
 
 .home:hover{
@@ -58,6 +66,10 @@ padding-top: 60px;
   height: 30px;
   position: static;
 }
+
+
+
+
 
 .about_us {
   padding: 10vh 0;
@@ -155,11 +167,11 @@ input[type=submit]:hover{
     border-radius: 4px;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
 
     .register{
         padding: 5%;
-        width: 90%;
+        width: 70%;
         height: 900px;
     }
     .register h1{
@@ -178,14 +190,14 @@ input[type=submit]:hover{
         font-size:16px;
     }
     .card_row {
-      max-width:599px;
-      min-height: 400px;
+      max-width:100%;
+      min-height: auto;
       position: relative;
       padding:8px;
       grid-gap: 8px;
       margin: 0 auto;
       display: grid;
-      grid-template-columns: repeat(auto-fill, 500px);
+      grid-template-columns: repeat(auto-fill, 85%);
       grid-gap: 10px;
 
     }
@@ -194,18 +206,26 @@ input[type=submit]:hover{
 
 
 }
-@media only screen and (max-width: 980px) {
+@media screen and (max-width: 980px) {
   .open{
     display:inline-block;
+  }
+  .home{
+    width:35px;
+    height:auto;
+  }
+  .home:hover{
+    width:40px;
+    height: 35px;
   }
 
 }
 
-@media only screen and (min-width:600px){
+@media screen and (min-width:600px){
 
     .register{
-        width:70%;
-        height:900px;
+        width:40%;
+        height:auto;
     }
     .register input[type=text],[type=email],[type=number]{
         width:85%;
@@ -288,12 +308,12 @@ input[type=submit]:hover{
 }
 
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
 
     .login{
         padding: 5%;
-        width: 90%;
-        height: 500px;
+        width: 70%;
+        height: 350px;
     }
     .login h1{
         width:95%;
@@ -308,10 +328,10 @@ input[type=submit]:hover{
     }
 }
 
-@media only screen and (min-width:600px){
+@media screen and (min-width:600px){
 
     .login{
-        width: 70%;
+        width: 40%;
         height:350px;
     }
     .login h1{
@@ -391,11 +411,11 @@ input[type=submit]:hover{
     cursor:pointer;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
 
     .signup{
         padding: 5%;
-        width: 90%;
+        width: 70%;
         height: 600px;
     }
     .signup h1{
@@ -407,10 +427,10 @@ input[type=submit]:hover{
     }
 }
 
-@media only screen and (min-width:600px){
+@media screen and (min-width:600px){
 
     .signup{
-        width:70%;
+        width:40%;
         height:600px;
     }
     .signup input[type=text],[type=email],[type=password]{
