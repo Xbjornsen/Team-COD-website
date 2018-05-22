@@ -25,6 +25,7 @@ background-color: #111;
 overflow-x: hidden;
 transition: 0.5s;
 padding-top: 60px;
+color: #818181;
 }
 
 .sidebar a {
@@ -115,6 +116,32 @@ padding-top: 60px;
   grid-gap: 10px;
 
 }
+.news_event {
+  max-width:100%;
+  min-height: auto;
+  position: relative;
+  padding:8px;
+  grid-gap: 8px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-gap: 10px;
+
+}
+.drop_1{
+  display:none;
+  background-color:#888;
+}
+.drop_1 a{
+  color:white;
+}
+.drop_2{
+  display:none;
+  background-color:#888;
+}
+.drop_2 a{
+  color:white;
+}
 
 
 .register{
@@ -189,6 +216,12 @@ input[type=submit]:hover{
     .register input[type=submit]{
         font-size:16px;
     }
+    .about_us{
+      display:none;
+    }
+    .legal_services{
+      display:none;
+    }
     .card_row {
       max-width:100%;
       min-height: auto;
@@ -205,6 +238,7 @@ input[type=submit]:hover{
 
 
 
+
 }
 @media screen and (max-width: 980px) {
   .open{
@@ -217,6 +251,10 @@ input[type=submit]:hover{
   .home:hover{
     width:40px;
     height: 35px;
+  }
+  .news_event {
+    display:block;
+
   }
 
 }
@@ -332,7 +370,7 @@ input[type=submit]:hover{
 
     .login{
         width: 40%;
-        height:350px;
+        height:400px;
     }
     .login h1{
         font-size:25px;
@@ -447,4 +485,3 @@ footer {
   background: black;
   color: white;
 }
-
