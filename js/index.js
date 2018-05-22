@@ -40,6 +40,21 @@ function closeNav() {
 
   }
 
+function opendrop1() {
+  if (document.getElementById("drop_1").style.display === "block") {
+  document.getElementById("drop_1").style.display = "none";
+} else {
+  document.getElementById("drop_1").style.display = "block";
+}
+}
+function opendrop2() {
+  if (document.getElementById("drop_2").style.display === "block") {
+  document.getElementById("drop_2").style.display = "none";
+} else {
+  document.getElementById("drop_2").style.display = "block";
+}
+}
+
 
 
 
