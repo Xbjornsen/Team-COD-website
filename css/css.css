@@ -1,0 +1,83 @@
+.card10-container {
+  max-width:400px;
+  min-height:1000px;
+  position: relative;
+  flex-wrap: wrap;
+  overflow: hidden;
+  padding:8px;
+  grid-gap:8px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,300px);
+  align-items: auto;
+}
+
+.card10 {
+  min-width: 275px;
+  width: 275px;
+  position: relative;
+  margin: 15px 15px;
+  height: 350px;
+  border-radius: 7px;
+  background-size: cover;
+  border: 1px solid rgba(128, 128, 128, 0.15);
+  box-sizing: border-box;
+}
+.card10-social {
+  height: 75px;
+  width: 100%;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.card10-image {
+  width: 100%;
+  height: 240px;
+  position: relative;
+  background-image: url("http://www.kidsnews.ro/wp-content/uploads/2015/04/sarbatoare-nationala.jpg");
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.card10 .card10-info {
+  position: relative;
+  width: 100%;
+  height: 35px;
+  line-height: 35px;
+  top: -265px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  font-family: "Open Sans";
+  color: rgba(255, 255, 255, 0.85);
+}
+.card10 .card10-info .card10-title {
+  line-height: 35px;
+  height: 60px;
+  position: relative;
+  top: 0px;
+  font-size: 25px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.3);
+}
+.card10 .card10-info .card10-detail {
+  line-height: 1.22em;
+  font-size: 1em;
+  height: 220px;
+  background: rgba(0, 0, 0, 0.6);
+  position: relative;
+  top: 5px;
+  padding: 5px 20px 0px 20px;
+  opacity: 100;
+}
+@media screen and (max-width: 980px) {
+	.card10-container {
+	 max-width:100%;
+  min-height:auto;
+  position: relative;
+  flex-wrap: wrap;
+  overflow: hidden;
+  padding:8px;
+  grid-gap:8px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,60%);
+  align-items: auto;
+	}
+}
