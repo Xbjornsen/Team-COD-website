@@ -48,7 +48,7 @@ color: #818181;
   font-size: 36px;
   margin-left: 50px;
 }
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 770px) {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 30px;}
 
@@ -79,21 +79,13 @@ color: #818181;
 }
 
 
-@media (min-width: 300px) {
-  .about_us {
-    padding: 10vh 0;
-  }
-}
+
 
 .legal_services {
   padding: 10vh 0;
   text-align: center;
 }
-@media (min-width: 300px) {
-  .legal_services {
-    padding: 20vh 0;
-  }
-}
+
 
 .contact_us {
   padding: 10vh 0;
@@ -104,8 +96,34 @@ color: #818181;
     padding: 20vh 0;
   }
 }
-.card_row {
+
+.contact_us{
+  background-color: #F4F1E0;
+}
+.contact_info {
+  width:100%;
+  height:auto;
+  padding:8px;
+  text-align: left;
+}
+.contact1 {
   max-width:1000px;
+  min-height: 400px;
+  position: relative;
+  padding:8px;
+  grid-gap: 8px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 45% 45%;
+  grid-gap: 10px;
+
+}
+.h10{
+  text-align: left;
+  margin-left: 15%;
+}
+.card_row {
+  max-width:100%;
   min-height: 400px;
   position: relative;
   padding:8px;
@@ -194,13 +212,9 @@ input[type=submit]:hover{
     border-radius: 4px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 770px) {
 
-    .register{
-        padding: 5%;
-        width: 95%;
-        height: auto;
-    }
+
     .register h1{
         width:95%;
         font-size:25px;
@@ -235,8 +249,12 @@ input[type=submit]:hover{
 
     }
 }
+<<<<<<< HEAD
 
 @media screen and (max-width: 980px) {
+=======
+@media screen and (max-width: 770px) {
+>>>>>>> 0f6cee5ac457277eb50f30e6f20da6435142382f
   .open{
     display:inline-block;
   }
@@ -249,18 +267,35 @@ input[type=submit]:hover{
     height: 35px;
   }
   .news_event {
-    display:block;
+    max-width:100%;
+    min-height: auto;
+    position: relative;
+    padding:8px;
+    grid-gap: 8px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 100%);
+    grid-gap: 10px;
+
+  }
+  .contact1 {
+    max-width:100%;
+    min-height: auto;
+    position: relative;
+    padding:8px;
+    grid-gap: 8px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 100%);
+    grid-gap: 10px;
 
   }
 
 }
 
-@media screen and (min-width:600px){
+@media screen and (min-width:770px){
 
-    .register{
-        width:40%;
-        height:auto;
-    }
+
     .register input[type=text],[type=email],[type=number]{
         width:85%;
         font-size: 20px;
@@ -341,7 +376,7 @@ input[type=submit]:hover{
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 770px) {
 
     .login{
         padding: 5%;
@@ -361,7 +396,7 @@ input[type=submit]:hover{
     }
 }
 
-@media screen and (min-width:600px){
+@media screen and (min-width:770px){
 
     .login{
         width: 40%;
@@ -444,12 +479,12 @@ input[type=submit]:hover{
     cursor:pointer;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 770px) {
 
     .signup{
         padding: 5%;
         width: 70%;
-        height: 600px;
+        height: 770px;
     }
     .signup h1{
         font-size:25px;
@@ -460,11 +495,11 @@ input[type=submit]:hover{
     }
 }
 
-@media screen and (min-width:600px){
+@media screen and (min-width:770px){
 
     .signup{
         width:40%;
-        height:600px;
+        height:770px;
     }
     .signup input[type=text],[type=email],[type=password]{
         width: 90%;
