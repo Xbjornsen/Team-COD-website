@@ -1,297 +1,375 @@
 <!DOCTYPE html>
 <html lang="en" >
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Darwin Community Legal Services</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-    <link rel="stylesheet" href="css/css.css">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Darwin Community Legal Services</title>
+
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+      <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+      <link rel="stylesheet" href="css/css.css">
+      <link rel="stylesheet" href="css/style.css">
+
+
+
 </head>
+
 <body>
-    <header>
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-            <div id="sidebar" class="sidebar">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a  style="font-size:30px;cursor:pointer" onclick="opendrop1()">About us</a>
-                <div class="drop_1" id="drop_1">
-                    <a href="#">Patrons</a>
-                    <a href="#">Reports</a>
-                    <a href="#">Objectives</a>
-                </div>
-                <a style="font-size:30px;cursor:pointer" onclick="opendrop2()">Legal Services</a>
-                <div class="drop_2" id="drop_2">
-                    <a href="#">Community Legal Education</a>
-                    <a href="#">Tenant's Advice</a>
-                </div>
-                <a href="#contact_us">Contact Us</a>
-                <a id="signin"><img class="login12" src="images/login1.png" alt="login"></a>
-                <a id="signon"><img class="login12" src="images/sign.png" alt="sign"></a>
-            </div>
-            <span class="open" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-            <a class="navbar-brand" href="#top"><img class="home" src="images/home.jpg" alt="home"></a> <span class="sr-only">(current)
-            </span>
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link scroll" href="#about_us">About us </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link scroll" href="#legal_services">Legal Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link scroll" href="#contact_us">Contact Us</a>
-                    </li>
-                </ul>
-                <ul class=" navbar-nav navbar-right">
-                    <li class="nav-item">
-                        <a class="nav-link" id="signi"><img class="login12" src="images/login1.png" alt="login"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="signo"><img class="login12" src="images/sign.png" alt="sign"></a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <div id="sign" class="sign">
-        <div class="signup">
-            <span class="close2">&times;</span>
-            <form>
-                <h1><strong>Sign up</strong></h1>
-                <hr>
-                <div class="fname">
-                    <label for="first">First Name:</label><br>
-                    <input type="text" name ="first" id="first" placeholder="Your first name" required>
-                </div>
-                <div class="lname">
-                    <label for="Last">Last Name:</label><br>
-                    <input type="text" name ="Last" id="Last" placeholder="Your last name" required>
-                </div>
-                <div class="email">
-                    <label for="e-mail">Email:</label><br>
-                    <input id="emailAddress" type="email" name ="e-mail" id="e-mail" placeholder="Your Email address" required>
-                </div>
-                <div class="password">
-                    <label for="Last">Password:</label><br>
-                    <input type="password" name ="Last" id="Last" placeholder="Enter your Password" required>
-                </div>
-                <input type="submit" value="Sign Up">
-            </form>
-        </div>
+
+  <header>
+
+
+  <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
+    <div id="sidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a  style="font-size:30px;cursor:pointer" onclick="opendrop1()">About us</a>
+      <div class="drop_1" id="drop_1">
+        <a href="patrons.html">Patrons</a>
+        <a href="reports.html">Reports</a>
+        <a href="objectives.html">Objectives</a>
+      </div>
+      <a style="font-size:30px;cursor:pointer" onclick="opendrop2()">Legal Services</a>
+      <div class="drop_2" id="drop_2">
+        <a href="legal.html">Community Legal Education</a>
+        <a href="tenant.html">Tenant's Advice</a>
+      </div>
+      <a href="#contact_us">Contact Us</a>
+      <a id="signin"><img class="login12" src="images/login1.png" alt="login"></a>
+      <a id="signon"><img class="login12" src="images/sign.png" alt="sign"></a>
     </div>
-    <div id="log" class="log">
-        <div class="login">
-            <span class="close1">&times;</span>
-            <form>
-                <h1><strong>Login</strong></h1>
-                <hr>
-                <div class="User Name">
-                    <label for="first">User Name:</label><br>
-                    <input type="text" name ="first" id="first" placeholder="Enter your User Name" required>
-                </div>
-                <div class="Password">
-                    <label for="Last">Password:</label><br>
-                    <input type="password" name ="Last" id="Last" placeholder="Enter Your Password" required>
-                </div>
-                <input type="submit" value="Login">
-            </form>
-        </div>
+    <span class="open" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+  <a class="navbar-brand" href="#top"><img class="home" src="images/home.jpg" alt="home"></a> <span class="sr-only">(current)</span></a>
+
+
+  <div class="collapse navbar-collapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link scroll" href="#about_us">About us </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link scroll" href="#legal_services">Legal Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link scroll" href="#contact_us">Contact Us</a>
+      </li>
+    </ul>
+    <ul class=" navbar-nav navbar-right">
+      <li class="nav-item">
+
+        <a class="nav-link" id="signi"><img class="login12" src="images/login1.png" alt="login"></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="signo"><img class="login12" src="images/sign.png" alt="sign"></a>
+      </li>
+    </ul>
+
+  </div>
+</nav>
+
+</header>
+<div id="sign" class="sign">
+  <div class="signup">
+      <span class="close2">&times;</span>
+    <form>
+      <h1><strong>Sign up</strong></h1>
+      <hr>
+      <div class="fname">
+      <label for="first">First Name:</label><br>
+      <input type="text" name ="first" id="first" placeholder="Your first name" required>
+      </div>
+      <div class="lname">
+      <label for="Last">Last Name:</label><br>
+      <input type="text" name ="Last" id="Last" placeholder="Your last name" required>
+      </div>
+      <div class="email">
+      <label for="e-mail">Email:</label><br>
+      <input id="emailAddress" type="email" name ="e-mail" id="e-mail" placeholder="Your Email address" required>
+      </div>
+        <div class="password">
+      <label for="Last">Password:</label><br>
+      <input type="password" name ="Last" id="Last" placeholder="Enter your Password" required>
+      </div>
+    <input type="submit" value="Sign Up">
+    </form>
+  </div>
+</div>
+<div id="log" class="log">
+
+
+  <div class="login">
+    <span class="close1">&times;</span>
+  <form>
+    <h1><strong>Login</strong></h1>
+    <hr>
+    <div class="User Name">
+    <label for="first">User Name:</label><br>
+    <input type="text" name ="first" id="first" placeholder="Enter your User Name" required>
     </div>
-    <div class="main" id="main">
-        <section class="top" id="top">
-            <div class="dcls">
-                <img class="dcls" src="images/Darwin.png" alt="main">
-            </div>
-        </section>
+    <div class="Password">
+    <label for="Last">Password:</label><br>
+    <input type="password" name ="Last" id="Last" placeholder="Enter Your Password" required>
+      </div>
+
+      <input type="submit" value="Login">
+  </form>
+</div>
+</div>
+
+
+<div class="main" id="main">
+<section class="top" id="top">
+
+    <div class="dcls">
+        <img class="dcls" src="images/Darwin.png" alt="main">
+      </div>
     </div>
-    <section>
-        <div class="news_event">
-            <div class="news">
-                <div class="container10">
-                    <div class="card-media">
-                        <!-- media container -->
-                        <div class="card-media-object-container">
-                            <div class="card-media-object">
-                                <img src="images/a.jpg" height="100%" width="100%" />
-                            </div>
-                        </div>
-                        <!-- body container -->
-                        <div class="card-media-body">
-                            <div class="card-media-body-top">
-                                <span class="subtle">May 4, 2018</span>
-                            </div>
-                            <span class="card-media-body-heading">Reforms for regulating ‘blacklists’ and updating the Residential Tenancies Act progressing</span>
-                            <a href="#/" class="card-media-body-supporting-bottom-text card-media-link u-float-right">For More Information
-                            </a>
-                        </div>
-                    </div>
-                    <div class="card-media">
-                        <!-- media container -->
-                        <div class="card-media-object-container">
-                            <div class="card-media-object">
-                                <img src="images/b.png" height="100%" width="100%" />
-                            </div>
-                        </div>
-                        <!-- body container -->
-                        <div class="card-media-body">
-                            <div class="card-media-body-top">
-                                <span class="subtle">Feb 23, 2018</span>
-                            </div>
-                            <span class="card-media-body-heading">Disability advocate helps client get the year off to a great start</span>
-                            <a href="#/" class="card-media-body-supporting-bottom-text card-media-link u-float-right">For More Information</a>
-                        </div>
-                    </div>
-                    <div class="card-media">
-                        <!-- media container -->
-                        <div class="card-media-object-container">
-                            <div class="card-media-object">
-                                <img src="images/c.jpg" height="100%" width="100%" />
-                            </div>
-                        </div>
-                        <!-- body container -->
-                        <div class="card-media-body">
-                            <div class="card-media-body-top">
-                                <span class="subtle">May 4, 2018</span>
-                            </div>
-                            <span class="card-media-body-heading">DCLS’s free Law Week workshop – register now!</span>
-                            <a href="#/" class="card-media-body-supporting-bottom-text card-media-link u-float-right">For More Information</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="event">
-                <div class="card10-container">
-                    <div class="card10">
-                        <div class="card10-image"></div>
-                        <div class="card10-info">
-                            <div class="card10-title">May 10</div>
-                            <div class="card10-detail">Every Thursday (except Public Holidays) 5.30-7.00pm – Darwin Darwin Community Legal Service Office Level 2, Winlow House, 75 Woods Street Darwin</div>
-                        </div>
-                        <div class="card10-social">
-                            <li> Free Legal Advice Darwin </li>
-                        </div>
-                    </div>
-                    <div class="card10">
-                        <div class="card10-image"></div>
-                        <div class="card10-info">
-                            <div class="card10-title">May 12</div>
-                            <div class="card10-detail">@ 10:00 am - 11:45 am at Casuarina Library</div>
-                        </div>
-                        <div class="card10-social">
-                            <li> Free Legal Advice at Casuarina Library </li>
-                        </div>
-                    </div>
-                    <div class="card10">
-                        <div class="card10-image"></div>
-                        <div class="card10-info">
-                            <div class="card10-title">May 14</div>
-                            <div class="card10-detail">	Every Monday 6.00-7.00pm (not public holidays) Palmerston Library Goyder Square Palmerston</div>
-                        </div>
-                        <div class="card10-social">
-                            <li> Free Legal Advice Palmerston </li>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <section class="about_us" id="about_us">
-                <div class="container">
-                    <h1 class="mb-5 display-5">About Us</h1>
-                    <div class="card_row">
-                        <div class="card" >
-                            <img class="card-img-top" src="images/patrons.jpg" alt="Card image cap">
-                            <div class="card-body bg-dark text-white">
-                                <h5 class="card-title">Patrons</h5>
-                                <p class="card-text">His Honour the Honourable  John Hardy AO, Administrator of the Northern Territory and Mrs Marie Hardy – 2014 to 2017. </p>
-                                <a href="#" class="btn btn-primary">Read More..</a>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-body bg-dark text-white">
-                                <h5 class="card-title"> Reports</h5>
-                                <p class="card-text">Annual Reports. </p>
-                                <a href="#" class="btn btn-primary">Access Reports</a>
-                            </div>
-                        </div>
-                        <div class="card" >
-                            <img class="card-img-top" src="images/objectives.jpg" alt="Card image cap">
-                            <div class="card-body bg-dark text-white">
-                                <h5 class="card-title">Objectives</h5>
-                                <p class="card-text">Vision: A community where people can obtain legal and social justice .</p>
-                                <a href="#" class="btn btn-primary">Read More..</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="legal_services bg-info" id="legal_services">
-                <div class="container">
-                    <h1 class="mb-5 display-5">Legal Services</h1>
-                    <div class="card_row">
-                        <div class="card" >
-                            <img class="card-img-top" src="images/legal.jpg" alt="Card image cap">
-                            <div class="card-body bg-dark text-white">
-                                <h5 class="card-title">Community Legal Education</h5>
-                                <p class="card-text">Community Legal Education (CLE) plays a major part in demystifying the law, and provides an opportunity to talk to the broader community about the rights of disadvantaged people. </p>
-                                <a href="#" class="btn btn-primary">Read More..</a>
-                            </div>
-                        </div>
-                        <div class="card" >
-                            <img class="card-img-top" src="images/tenants.jpg" alt="Card image cap">
-                            <div class="card-body bg-dark text-white">
-                                <h5 class="card-title">Tenant's Advice</h5>
-                                <p class="card-text">The Tenants’ Advice Service (TAS) is an NT wide, community-based advice and advocacy service for residential tenants. </p>
-                                <a href="#" class="btn btn-primary">Read More..</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="contact_us bg-dark" id="contact_us">
-                <div class="register">
-                    <form action="mailto:dcls@dcls.com.au">
-                        <h1><strong>CONTACT US</strong></h1>
-                        <hr>
-                        <div class="fname">
-                            <label for="first">First Name:</label><br>
-                            <input type="text" name ="first" id="first" placeholder="Your first name" required>
-                        </div>
-                        <div class="lname">
-                            <label for="Last">Last Name:</label><br>
-                            <input type="text" name ="Last" id="Last" placeholder="Your last name" required>
-                        </div>
-                        <div class="email">
-                            <label for="e-mail">Email:</label><br>
-                            <input id="emailAddress" type="email" name ="e-mail" id="e-mail" placeholder="Your Email address" required>
-                        </div>
-                        <div class="phn">
-                            <label for="phone">Phone Number:</label><br>
-                            <input type="number" name ="phone" id="phone" placeholder="Your phone number" required>
-                        </div>
-                        <div class="contact_option">
-                            <label>How would you like us to contact you? </label><br>
-                            <input type="radio" name="phone" value="1"><label for="phone">Phone</label><br>
-                            <input type="radio" name="email" value="2"><label for="email">Email</label>
-                        </div>
-                        <div class="comments">
-                            <label for="text">Comments / Questions </label><br>
-                        </div>
-                        <input type="submit" value="Send Message">
-                    </form>
-                </div>
-            </section>
-                <footer>
-                    <p>generic footer content</p>
-                </footer>
-            <div>
-            <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
-            <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-            <script  src="js/index.js"></script>
-            </div>
+
+</section>
+<section>
+  <div class="news_event">
+  <div class="news">
+ <div class="container10">
+
+  <div class="card-media">
+    <!-- media container -->
+    <div class="card-media-object-container">
+      <div class="card-media-object">
+	  <img src="images/a.jpg" height="100%" width="100%" />
+	  </div>
+    </div>
+    <!-- body container -->
+    <div class="card-media-body">
+      <div class="card-media-body-top">
+        <span class="subtle">May 4, 2018</span>
+      </div>
+      <span class="card-media-body-heading">Reforms for regulating ‘blacklists’ and updating the Residential Tenancies Act progressing</span>
+        <a href="#/" class="card-media-body-supporting-bottom-text card-media-link u-float-right">For More Information</a>
+      </div>
+    </div>
+
+  <div class="card-media">
+    <!-- media container -->
+    <div class="card-media-object-container">
+      <div class="card-media-object">
+	  <img src="images/b.png" height="100%" width="100%" />
+	  </div>
+      </ul>
+    </div>
+    <!-- body container -->
+    <div class="card-media-body">
+      <div class="card-media-body-top">
+        <span class="subtle">Feb 23, 2018</span>
+      </div>
+      <span class="card-media-body-heading">Disability advocate helps client get the year off to a great start</span>
+      <a href="#/" class="card-media-body-supporting-bottom-text card-media-link u-float-right">For More Information</a>
+	</div>
+  </div>
+  <div class="card-media">
+    <!-- media container -->
+    <div class="card-media-object-container">
+      <div class="card-media-object">
+	  <img src="images/c.jpg" height="100%" width="100%" />
+	  </div>
+    </div>
+    <!-- body container -->
+    <div class="card-media-body">
+      <div class="card-media-body-top">
+        <span class="subtle">May 4, 2018</span>
+      </div>
+      <span class="card-media-body-heading">DCLS’s free Law Week workshop – register now!</span>
+    <a href="#/" class="card-media-body-supporting-bottom-text card-media-link u-float-right">For More Information</a>
+ 	</div>
+  </div>
+
+</div>
+</div>
+<div class="event">
+<div class="card10-container">
+  <div class="card10">
+    <div class="card10-image"></div>
+    <div class="card10-info">
+      <div class="card10-title">May 10</div>
+      <div class="card10-detail">Every Thursday (except Public Holidays) 5.30-7.00pm – Darwin Darwin Community Legal Service Office Level 2, Winlow House, 75 Woods Street Darwin</div>
+    </div>
+    <div class="card10-social">
+      <li> Free Legal Advice Darwin </li>
+    </div>
+  </div>
+  <div class="card10">
+      <div class="card10-image"></div>
+    <div class="card10-info">
+      <div class="card10-title">May 12</div>
+      <div class="card10-detail">@ 10:00 am - 11:45 am
+ at Casuarina Library</div>
+    </div>
+      <div class="card10-social">
+        <li> Free Legal Advice at Casuarina Library </li>
+    <ul>
+</li>
+    </div>
+  </div>
+  <div class="card10">
+    <div class="card10-image"></div>
+    <div class="card10-info">
+      <div class="card10-title">May 14</div>
+      <div class="card10-detail">	Every Monday 6.00-7.00pm (not public holidays) – Palmerston Palmerston Library Goyder Square Palmerston</div>
+    </div>
+    <div class="card10-social">
+      <li> Free Legal Advice Palmerston </li>
+  </div>
+</div>
+</div>
+
+<div>
+</div>
+</section>
+
+
+<section class="about_us" id="about_us">
+
+  <div class="container">
+    <h1 class="mb-5 display-5">About Us</h1>
+    <div class="card_row">
+
+
+      <div class="card" >
+      <img class="card-img-top" src="images/patrons.jpg" alt="Card image cap">
+      <div class="card-body bg-dark text-white">
+        <h5 class="card-title">Patrons</h5>
+        <p class="card-text">His Honour the Honourable  John Hardy AO, Administrator of the Northern Territory and Mrs Marie Hardy – 2014 to 2017. </p>
+        <a href="patrons.html" class="btn btn-primary">Read More..</a>
+      </div>
+    </div>
+
+
+
+      <div class="card">
+      <img class="card-img-top" src="images/reports.jpg" alt="Card image cap">
+      <div class="card-body bg-dark text-white">
+        <h5 class="card-title"> Reports</h5>
+        <p class="card-text">Annual Reports. </p>
+        <a href="reports.html" class="btn btn-primary">Access Reports</a>
+      </div>
+    </div>
+
+
+
+      <div class="card" >
+      <img class="card-img-top" src="images/objectives.jpg" alt="Card image cap">
+      <div class="card-body bg-dark text-white">
+        <h5 class="card-title">Objectives</h5>
+        <p class="card-text">Vision:
+A community where people can obtain legal and social justice .</p>
+        <a href="objectives.html" class="btn btn-primary">Read More..</a>
+      </div>
+
+    </div>
+</div>
+</div>
+
+</section>
+
+<section class="legal_services bg-info" id="legal_services">
+  <div class="container">
+    <h1 class="h10">Legal Services</h1>
+    <div class="card_row">
+      <div class="card" >
+      <img class="card-img-top" src="images/legal.jpg" alt="Card image cap">
+      <div class="card-body bg-dark text-white">
+        <h5 class="card-title">Community Legal Education</h5>
+        <p class="card-text">Community Legal Education (CLE) plays a major part in demystifying the law, and provides an opportunity to talk to the broader community about the rights of disadvantaged people. </p>
+        <a href="legal.html" class="btn btn-primary">Read More..</a>
+      </div>
+    </div>
+
+
+
+  <div class="card" >
+  <img class="card-img-top" src="images/tenants.jpg" alt="Card image cap">
+  <div class="card-body bg-dark text-white">
+    <h5 class="card-title">Tenant's Advice</h5>
+    <p class="card-text">The Tenants’ Advice Service (TAS) is an NT wide, community-based advice and advocacy service for residential tenants. </p>
+    <a href="tenant.html" class="btn btn-primary">Read More..</a>
+  </div>
+</div>
+
+
+</div>
+</div>
+</section>
+<section class="contact_us" id="contact_us">
+  <h1 class="h10">Contact Us</h1>
+<div class="contact1">
+<div class="contact_info">
+  <h3><b>Freecall:</b><a href="tel:1800812953">1800 812 953</a></h3>
+  <h3><b>Phone:</b><a href="tel:0889821111">08 8982 1111</a></h3>
+  <h3><b>Fax:</b><a href="tel:0889821112">08 8982 1112</a></h3>
+  <br><br><br>
+  <h3><b>Email:</b><a href="mailto:info@dcls.org.au">info@dcls.org.au</a></h3><br>
+  <h3><b>Postal Address:</b> GPO BOX 3180,</h3><br>
+  <h3>Darwin NT 0810 </h3>
+  <br><br><br>
+  <h3><b>Location:</b> Level 2, Winlow House,</h3><br>
+  <h3>75 Woods Street</h3><br>
+  <h3>Darwin</h3><br>
+</div>
+<div class="register">
+    <form action="mailto:dcls@dcls.com.au">
+      <h1><strong>Contact Us</strong></h1>
+      <hr>
+      <div class="fname">
+      <label for="first">First Name:</label><br>
+      <input type="text" name ="first" id="first" placeholder="Your first name" required>
+      </div>
+      <div class="lname">
+      <label for="Last">Last Name:</label><br>
+      <input type="text" name ="Last" id="Last" placeholder="Your last name" required>
+      </div>
+      <div class="email">
+      <label for="e-mail">Email:</label><br>
+      <input id="emailAddress" type="email" name ="e-mail" id="e-mail" placeholder="Your Email address" required>
+      </div>
+      <div class="phn">
+      <label for="phone">Phone Number:</label><br>
+      <input type="number" name ="phone" id="phone" placeholder="Your phone number" required>
+      </div>
+        <div class="contact_option">
+        <label>How would you like us to contact you? </label><br>
+        <input type="radio" name="phone" value="1"><label for="phone">Phone</label><br>
+        <input type="radio" name="email" value="2"><label for="email">Email</label>
         </div>
-    </section>
+        <div class="comments">
+        <label for="text">Comments / Questions </label><br>
+        <textarea placeholder="Enter your question or comment here"  rows="4" cols=""></textarea><br>
+        </div>
+        <input type="submit" value="Send Message">
+    </form>
+  </div>
+</div>
+</section>
+
+
+<footer>
+  <p>generic footer content</p>
+</footer>
+</div>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+
+    <script  src="js/index.js"></script>
+
+
+
+
 </body>
+
 </html>
