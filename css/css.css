@@ -16,13 +16,16 @@
   width: 275px;
   position: relative;
   margin: 15px 15px;
-  height: 350px;
+  height: auto;
   border-radius: 7px;
   background-size: cover;
   border: 1px solid rgba(128, 128, 128, 0.15);
   box-sizing: border-box;
 }
 .card10-social {
+  text-align: center;
+  background-color: #CCCCCC;
+  list-style: none;
   height: 75px;
   width: 100%;
   border-bottom-right-radius: 5px;
