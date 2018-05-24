@@ -1,76 +1,81 @@
 .card10-container {
   max-width:400px;
-  min-height:1000px;
+  min-height:auto;;
   position: relative;
   flex-wrap: wrap;
   overflow: hidden;
   padding:8px;
-  grid-gap:8px;
+  grid-gap:15px;
   display: grid;
   grid-template-columns: repeat(auto-fill,300px);
   align-items: auto;
 }
 
-.card10 {
+
+.Material-card{
+  position: relative;
+  background: white;
   min-width: 275px;
-  width: 275px;
-  position: relative;
-  margin: 15px 15px;
-  height: auto;
-  border-radius: 7px;
-  background-size: cover;
-  border: 1px solid rgba(128, 128, 128, 0.15);
-  box-sizing: border-box;
+  height:350px;
+  overflow: hidden;
+  font-family: 'Montserrat', sans-serif;
+  color: #314652;
+  box-shadow: 1px 2px 8px 3px;
 }
-.card10-social {
+.top5{
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  position: relative;
+}
+.top5 img{
+  width: 100%;
+  height: 150px;
+}
+
+.content5{
+  height:200px;
+  margin-top: 0px;
   text-align: center;
-  background-color: #CCCCCC;
-  list-style: none;
-  height: 75px;
-  width: 100%;
-  border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
+  overflow: hidden;
+
 }
-.card10-image {
-  width: 100%;
-  height: 240px;
-  position: relative;
-  background-image: url("http://www.kidsnews.ro/wp-content/uploads/2015/04/sarbatoare-nationala.jpg");
-  border-top-right-radius: 5px;
-  border-top-left-radius: 5px;
+.content5 h4{
+
+  text-transform: uppercase;
 }
-.card10 .card10-info {
-  position: relative;
-  width: 100%;
-  height: 35px;
-  line-height: 35px;
-  top: -265px;
-  border-top-right-radius: 5px;
-  border-top-left-radius: 5px;
-  font-family: "Open Sans";
-  color: rgba(255, 255, 255, 0.85);
-}
-.card10 .card10-info .card10-title {
-  line-height: 35px;
-  height: 60px;
-  position: relative;
+
+.rectangle5 {
+  width: 0;
+  height: 0;
+  border-bottom: 30px solid transparent;
+  border-right: 600px solid white;
+  position: absolute;
   top: 0px;
-  font-size: 25px;
-  text-align: center;
-  background: rgba(0, 0, 0, 0.6);
-  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.3);
 }
-.card10 .card10-info .card10-detail {
-  line-height: 1.22em;
-  font-size: 1em;
-  height: 220px;
-  background: rgba(0, 0, 0, 0.6);
+.rectangle {
+  width: 0;
+  height: 0;
+  border-top: 30px solid transparent;
+  border-left: 400px solid white;
+  position: absolute;
+  bottom: 0;
+}
+.footer5{
+  width: 100%;
+  height: 50px;
   position: relative;
-  top: 5px;
-  padding: 5px 20px 0px 20px;
-  opacity: 100;
+  background: #314652;
+  color: white;
+  margin-top:-50px;
 }
-@media screen and (max-width: 980px) {
+.footer5 p{
+  display: block;
+  margin-top: 0px;
+  padding:10px;
+}
+
+@media screen and (max-width: 770px) {
 	.card10-container {
 	 max-width:100%;
   min-height:auto;
@@ -80,7 +85,8 @@
   padding:8px;
   grid-gap:8px;
   display: grid;
-  grid-template-columns: repeat(auto-fill,60%);
+  grid-template-columns: repeat(auto-fill,90%);
   align-items: auto;
 	}
+
 }

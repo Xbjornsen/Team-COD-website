@@ -58,6 +58,7 @@ function opendrop2() {
 
 
 
+
   var nav = document.getElementById('sidebar');
   var log = document.getElementById('log');
   var btn = document.getElementById("signin");

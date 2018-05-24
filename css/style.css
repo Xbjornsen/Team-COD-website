@@ -84,6 +84,10 @@ color: #818181;
 .legal_services {
   padding: 10vh 0;
   text-align: center;
+  background-color: #666;
+}
+.main_info{
+  background-color: #2d4f70;
 }
 
 
@@ -105,9 +109,10 @@ color: #818181;
   height:auto;
   padding:8px;
   text-align: left;
+  border-style: groove;
 }
 .contact1 {
-  max-width:1000px;
+  max-width:90%;
   min-height: 400px;
   position: relative;
   padding:8px;
@@ -115,7 +120,7 @@ color: #818181;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 45% 45%;
-  grid-gap: 10px;
+  grid-gap: 30px;
 
 }
 .h10{
@@ -163,6 +168,7 @@ color: #818181;
 
 
 .register{
+   width:90%;
     border-radius: 5px;
     padding:20px;
     margin:auto;
@@ -249,6 +255,16 @@ input[type=submit]:hover{
       grid-gap: 10px;
 
     }
+    .hide3{
+      display:none;
+    }
+    .hide2{
+      display:none;
+    }
+    .hide1{
+      display:none;
+    }
+
 
 
 
@@ -285,10 +301,9 @@ input[type=submit]:hover{
     min-height: auto;
     position: relative;
     padding:8px;
-    grid-gap: 8px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(auto-fill, 100%);
+    grid-template-columns: repeat(auto-fill, 95%);
     grid-gap: 10px;
 
   }
