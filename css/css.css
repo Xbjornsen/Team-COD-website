@@ -14,6 +14,7 @@
 
 .Material-card{
   position: relative;
+<<<<<<< HEAD
   background: white;
   min-width: 275px;
   height:350px;
@@ -21,6 +22,23 @@
   font-family: 'Montserrat', sans-serif;
   color: #314652;
   box-shadow: 1px 2px 8px 3px;
+=======
+  margin: 15px 15px;
+  height: auto;
+  border-radius: 7px;
+  background-size: cover;
+  border: 1px solid rgba(128, 128, 128, 0.15);
+  box-sizing: border-box;
+}
+.card10-social {
+  text-align: center;
+  background-color: #CCCCCC;
+  list-style: none;
+  height: 75px;
+  width: 100%;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+>>>>>>> dba9f7e46f9b784c314d28e10e95741e901ec7f0
 }
 .top5{
   width: 100%;
@@ -88,5 +106,8 @@
   grid-template-columns: repeat(auto-fill,90%);
   align-items: auto;
 	}
+<<<<<<< HEAD
 
+=======
+>>>>>>> dba9f7e46f9b784c314d28e10e95741e901ec7f0
 }
