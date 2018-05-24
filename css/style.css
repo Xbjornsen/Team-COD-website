@@ -412,7 +412,7 @@ input[type=submit]:hover{
         font-size:25px;
     }
     .login input[type=text],[type=password]{
-        width:90%;
+        width:95%;
         font-size: 16px;
     }
     .login input[type=submit]{
@@ -431,7 +431,7 @@ input[type=submit]:hover{
     }
     .login input[type=text],[type=password]{
         font-size: 20px;
-        width: 70%;
+        width: 90%;
     }
     .login input[type=submit]{
         font-size: 20px;
@@ -524,6 +524,9 @@ input[type=submit]:hover{
     .signup{
         width:40%;
         height:770px;
+    }
+    .signup h1{
+        font-size:25px;
     }
     .signup input[type=text],[type=email],[type=password]{
         width: 90%;
