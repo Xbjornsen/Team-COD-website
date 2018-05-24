@@ -272,15 +272,11 @@ input[type=submit]:hover{
       display:none;
     }
 
-
-
-
-
-
 }
 @media screen and (max-width: 770px) {
   .open{
     display:inline-block;
+    color:white;
   }
   .home{
     width:35px;
@@ -534,7 +530,6 @@ input[type=submit]:hover{
         font-size: 20px;
     }
 }
-
 
 
 footer {
