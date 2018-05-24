@@ -48,6 +48,12 @@ color: #818181;
   font-size: 36px;
   margin-left: 50px;
 }
+.privacy a{
+  text-decoration: none;
+}
+.privacy:hover{
+  color:red;
+}
 @media screen and (max-width: 770px) {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 30px;}
@@ -530,6 +536,6 @@ input[type=submit]:hover{
 footer {
   padding: 10vh 0;
   text-align: center;
-  background: black;
+  background: #333;
   color: white;
 }
